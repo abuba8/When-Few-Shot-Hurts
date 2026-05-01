@@ -1,0 +1,28 @@
+**Prompt for Evaluating Answer Similarity**
+
+**Instructions:** For the given question, compare the original answer and the generated answer.
+Your task is to determine if both answers are semantically similar, even if the generated answer provides additional context or details.
+You have to understand the complete context and semantics of the generated answer, only then you'll be able to answer correctly.
+The generated responses are always longer than the original answer, so look and find for the relevant parts in the generated answers.
+
+For example, pointing in intended directions, and the answer states hand gestures, they are expressing the same meaning (this is an indirect context).
+Similarly, if the question asks "is the man practicing or playing in a concert?" and the original answer is "practicing" and the generated answer states that they are performing in a concert and is unsure if it's practice, then the response should be **No**.
+Similarly, if the generated answer does not contain a synonym and states that more context is needed or expresses uncertainty, then the response should be **No**.
+
+Consider the following criteria for your evaluation:
+
+1. **Direct Match:** If the generated answer directly restates or clearly supports the original answer, mark it as **Yes**.
+2. **Indirect Context:** If the generated answer provides additional context but aligns with the original answer's main idea or intent, mark it as **Yes**.
+3. **Different Context:** If the generated answer deviates significantly from the original answer, mark it as **No**.
+
+{% if shot_type == "one" %}
+**Example Question and Answers:**
+{% set item = data[selected_k] %}
+
+- **Question:** {{ item.question }}
+- **Original Answer:** {{ item.original_answer }}
+- **Generated Answer:** {{ item.generated_answer }}
+- **Response:** {{ item.response }}
+
+{% endif %}
+**Your Response:** Answer in **Yes** or **No** based on the above criteria.

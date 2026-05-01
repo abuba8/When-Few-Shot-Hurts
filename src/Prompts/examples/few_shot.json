@@ -1,0 +1,136 @@
+{
+  "K1": {
+    "exemplar_1": {
+      "question": "Why does the boy keep squinting?",
+      "original_answer": "To prevent water from getting into his eyes.",
+      "generated_answer": "The boy is squinting because he is trying to shield his eyes from the splashing water while playing in a pool.",
+      "response": "Yes"
+    },
+    "exemplar_2": {
+      "question": "Is the man practicing or playing in a concert?",
+      "original_answer": "practicing",
+      "generated_answer": "USER: Watch the video and answer the following question: is the man practicing or playing in a concert ASSISTANT: Based on the video, it appears that the man is playing a guitar on a stage, which suggests that he is likely performing in a concert or a live music event. However, it is not possible to definitively determine from the video whether he is practicing or playing in a concert. The context of the video does not provide enough information to confidently answer this question.",
+      "response": "No"
+    },
+    "exemplar_3": {
+      "question": "Why is the dog resting on the laptop?",
+      "original_answer": "comfortable",
+      "generated_answer": "USER: Watch the video and answer the following question: why is the dog resting on the laptop ASSISTANT: The dog is resting on the laptop because it is seeking warmth and comfort. Laptops generate heat when in use, which can be appealing to the dog. It may also be seeking attention or a comfortable resting place.",
+      "response": "Yes"
+    },
+    "exemplar_4": {
+      "question": "What did the adult do after he took the bowl from the girl?",
+      "original_answer": "scoop food",
+      "generated_answer": "In the video, an adult takes the bowl of food away from the girl, and then returns it while the girl continues eating.",
+      "response": "No"
+    }
+  },
+
+  "K2": {
+    "exemplar_1": {
+      "question": "how does the man attract the child s attention",
+      "original_answer": "with the food",
+      "generated_answer": "The man holds a toy and talks to the baby while sitting beside them, drawing the baby's attention.",
+      "response": "No"
+    },
+    "exemplar_2": {
+      "question": "why did the baby near the table nod while talking at the side of the table",
+      "original_answer": "agreeing with the woman",
+      "generated_answer": "The baby nods in response to the woman’s voice, likely showing engagement or acknowledgment.",
+      "response": "Yes"
+    },
+    "exemplar_3": {
+      "question": "what does the boy in blue do after pouring water on the naked boy",
+      "original_answer": "scoop more water",
+      "generated_answer": "After pouring water, the boy in blue walks away from the scene.",
+      "response": "No"
+    },
+    "exemplar_4": {
+      "question": "where is this place",
+      "original_answer": "event hall",
+      "generated_answer": "The video shows a domestic indoor setting, likely a home or apartment living room.",
+      "response": "No"
+    }
+  },
+
+  "K3": {
+    "exemplar_1": {
+      "question": "why did the lady in black with long hair step in towards the paper on the wall",
+      "original_answer": "check the words",
+      "generated_answer": "The reason is unclear, but she likely moved closer to read or examine the paper.",
+      "response": "Yes"
+    },
+    "exemplar_2": {
+      "question": "how does the lady in white communicate with the parrot",
+      "original_answer": "talking and gesturing",
+      "generated_answer": "She uses a device near her face while the parrot responds, suggesting mediated communication.",
+      "response": "Yes"
+    },
+    "exemplar_3": {
+      "question": "what does the baby do after the lady put down the orange block",
+      "original_answer": "hold the toy hammer",
+      "generated_answer": "The baby picks up the orange block again after it is placed down.",
+      "response": "No"
+    },
+    "exemplar_4": {
+      "question": "where are the people hanging out",
+      "original_answer": "outside a building",
+      "generated_answer": "They are gathered in an outdoor courtyard-like space near a building.",
+      "response": "Yes"
+    }
+  },
+
+  "K4": {
+    "exemplar_1": {
+      "question": "how is the baby kept warm?",
+      "original_answer": "wrapped around towel",
+      "generated_answer": "The baby is wrapped in a blanket to stay warm.",
+      "response": "Yes"
+    },
+    "exemplar_2": {
+      "question": "what does the man with helmet do at the start while the man in blue was touching the car",
+      "original_answer": "adjusting helmet",
+      "generated_answer": "He stands near the car and appears to be preparing to get in or observing the situation.",
+      "response": "No"
+    },
+    "exemplar_3": {
+      "question": "what does the girl do as the lady sits down next to her",
+      "original_answer": "pin woman s hair",
+      "generated_answer": "The girl interacts with the woman, including touching or playing with her hair.",
+      "response": "No"
+    },
+    "exemplar_4": {
+      "question": "how is the weather like",
+      "original_answer": "hot and sunny",
+      "generated_answer": "The weather appears sunny and pleasant.",
+      "response": "Yes"
+    }
+  },
+
+  "K5": {
+    "exemplar_1": {
+      "question": "why does the man bend over in the fountain",
+      "original_answer": "look closely at the card",
+      "generated_answer": "The reason is unclear due to low visual quality, but he may be interacting with something in the fountain.",
+      "response": "No"
+    },
+    "exemplar_2": {
+      "question": "why is the ground white",
+      "original_answer": "snow",
+      "generated_answer": "The ground is covered in snow.",
+      "response": "Yes"
+    },
+    "exemplar_3": {
+      "question": "what does the boy do after pulling out two toys at the start of the video",
+      "original_answer": "places them back in the toolbox",
+      "generated_answer": "The boy plays with the toys after taking them out.",
+      "response": "No"
+    },
+    "exemplar_4": {
+      "question": "is the truck too heavy to go up the slope any further",
+      "original_answer": "yes",
+      "generated_answer": "The truck struggles significantly to climb the slope, indicating difficulty due to weight or incline.",
+      "response": "Yes"
+    }
+  }
+}

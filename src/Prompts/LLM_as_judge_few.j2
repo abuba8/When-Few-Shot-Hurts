@@ -1,0 +1,24 @@
+*Prompt for Evaluating Answer Similarity*
+
+*Instructions:* For the given question, compare the original answer and the generated answer.
+Your task is to determine if both answers are semantically similar, even if the generated answer provides additional context or details.
+You have to understand the complete context and semantics of the generated answer, only then you'll be able to answer correctly.
+The generated responses are always longer than the original answer, so look and find for the relevant parts in the generated answers.
+
+*Evaluation Criteria:*
+1. *Direct Match (Yes):* The generated answer restates or clearly supports the original answer, even using different words.
+2. *Indirect Context (Yes):* The generated answer provides additional detail or uses related concepts/synonyms that align with the original answer's intent. For example, if the original answer is "pointing" and the generated answer describes "hand gestures indicating direction," these express the same meaning.
+3. *Different Context (No):* The generated answer addresses a different aspect, contradicts the original, or focuses on information unrelated to the original answer.
+4. *Hedging or Uncertainty (No):* If the generated answer expresses uncertainty, says it cannot determine the answer, asks for more context, or hedges between multiple possibilities — respond *No*, even if one of the possibilities happens to match the original answer.
+
+*Output Format:* Respond with exactly one word: *Yes* or *No*. Do not include any explanation, punctuation, or additional text.
+{% set k = selected_k %}
+{% for ex_key, ex in data[selected_k].items() %}
+**Example {{ loop.index }}**
+- Question: {{ ex.question }}
+- Original Answer: {{ ex.original_answer }}
+- Generated Answer: {{ ex.generated_answer }}
+- Response: {{ ex.response }}
+{% endfor %}
+
+Use this framework to evaluate the similarity between the original and generated answers in the subsequent tasks.

@@ -1,0 +1,41 @@
+{
+  "K1": {
+    "question": "Why does the boy keep squinting?",
+    "original_answer": "To prevent water from getting into his eyes.",
+    "generated_answer": "The boy is squinting because he is trying to shield his eyes from the splashing water while playing in a pool.",
+    "evaluation": "The generated answer provides a detailed explanation related to preventing water from getting into the eyes, which aligns with the original answer's intent.",
+    "response": "Yes"
+  },
+
+  "K2": {
+    "question": "how does the man attract the child s attention",
+    "original_answer": "with the food",
+    "generated_answer": "The man uses a toy and speaks to the child while sitting nearby to attract attention.",
+    "evaluation": "The generated answer introduces different stimuli (toy and speech) rather than food, changing the original intent.",
+    "response": "No"
+  },
+
+  "K3": {
+    "question": "why did the lady in black with long hair step in towards the paper on the wall",
+    "original_answer": "check the words",
+    "generated_answer": "She likely moved closer to read or examine the paper on the wall.",
+    "evaluation": "The generated answer aligns with the intent of checking or reading the paper, matching the original meaning.",
+    "response": "Yes"
+  },
+
+  "K4": {
+    "question": "how is the baby kept warm?",
+    "original_answer": "wrapped around towel",
+    "generated_answer": "The baby is wrapped in a blanket to stay warm.",
+    "evaluation": "The generated answer correctly preserves the intent of keeping the baby warm, even with different wording.",
+    "response": "Yes"
+  },
+
+  "K5": {
+    "question": "why does the man bend over in the fountain",
+    "original_answer": "look closely at the card",
+    "generated_answer": "The reason is unclear, but he appears to be interacting with something in the fountain.",
+    "evaluation": "The generated answer does not reflect the original intent of looking at a card and instead introduces uncertainty.",
+    "response": "No"
+  }
+}
