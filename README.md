@@ -2,7 +2,7 @@
 
 **Prompt Fragility and Label-Bias in Training-Free Video Question Answering**
 
-[![Paper](https://img.shields.io/badge/paper-CVPR-blue.svg)](#citation)
+<!-- [![Paper](https://img.shields.io/badge/paper-CVPR-blue.svg)](#citation) -->
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.1%2B-ee4c2c.svg)](https://pytorch.org/)
